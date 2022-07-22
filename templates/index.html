@@ -1,0 +1,13 @@
+﻿<html>
+<body>
+<h1>请上传一张你心意的宝可梦照片吧</h1>
+<p>ps:</p>
+<p>由于数据集是英文，宝可梦的预测名还暂时是英文,同时也只包括第一世代的宝可梦...，</p>
+<p>此外由于算力有限，准确率还是低了些，数据集里有太多莫名奇妙的玩意儿了:(，欢迎提供数据集</p>
+    <form method="POST" action = "/" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <input type="submit" value="Upload">
+    </form>
+<p>  {{result}}.</p>
+</body>
+</html>
